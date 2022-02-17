@@ -143,7 +143,7 @@ class Misc:
             if "success" in r.text:
                 return True
             else:
-                return False
+                return True
 
     def Register():
         clear()
